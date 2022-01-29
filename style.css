@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#canvas{
+    /*
+    background-image: url('./assets/bg2.png');
+    background-repeat: no-repeat;
+    */
+    background-size: cover;
+    box-shadow:7px 3px 30px rgba(32, 55, 79, .5);
+    display: none;
+}
+
+#restartBtn{
+    display: none;
+    position: absolute;
+    top: 530px;
+    font-size: 40px;
+    font-family: 'Raleway';
+    background: none;
+    border: none;
+    color: white;
+    font-weight: 600;
+    padding: 20px 180px;
+}
+
+#restartBtn:hover {
+    cursor: pointer;
+}
+
+#wrapper {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(163, 225, 230);
+    
+}
+
+#logo {
+    height: 150px;
+    margin-bottom: 30px;
+}
+
+#startScreen {
+    height: 500px;
+    width: 1300px;
+    box-shadow: 7px 3px 30px rgba(32, 55, 79, .5);
+    display: inline;
+}
+
+#startScreen:hover {
+    cursor: pointer;
+}
+
+#controlsScreen {
+    height: 500px;
+    width: 1300px;
+    box-shadow: 7px 3px 30px rgba(32, 55, 79, .5);
+    display: none;
+}
+
+#controlsScreen:hover {
+    cursor: pointer;
+}
+
+#colorWrapper {
+    height: 500px;
+    width: 1300px;
+    display: none;
+    flex-direction: row;
+    box-shadow: 7px 3px 30px rgba(32, 55, 79, .5);
+    background-image: url(./assets/colorChooseScreen.png);
+}
+
+.color div {
+    height: 500px;
+    width: 432px;
+}
+
+.color div:hover {
+    cursor: pointer;
+}
